@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Haruka Udo ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Haruka Udoのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Haruka Udoのポートフォリオサイトです" />
+  <title>HARUKA UDO ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="inner">
+        <h1 class="header-logo">
+          <a href=".">HARUKA UDO</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="#works">WORKS</a></li>
+            <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+            <li class="header-nav-item"><a href="#profile">PLOFILE</a></li>
+            <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- main-visual -->
+      <div class="main-visual">
+        <div class="main-visual-inner">
+          <p class="main-visual-title">HARUKA UDO</p>
+          <p class="main-visual-subtitle">PORTFOLIO</p>
+        </div>
+      </div>
+      <!-- /main-visual -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="inner">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://myejition-2.herokuapp.com/">
+              <p class="works-img"><img src="img/works-sample-thumb.jpg" alt="" /></p>
+              <p class="works-name">My Ejition</p>
+              <p class="works-info"> 辞書作成アプリ/Ruby・Ruby on Rails</p>
+              <p class="works-info"> ID; harumin     PASS: 7777</p>
+              <p class="works-info"> ログイン用 メールアドレス: testmyejition111@gmail.com</P>
+              <p class="works-info"> パスワード: testmyejition111</p>
+              <p class="works-info">GitHub:   https://github.com/githaruka/myejition-2.git</p>
+            </a>
+            <%#a class="works-item" href="works-template.html">
+              <p class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></p>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a%>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="inner">
+          <h2 class="title">SKILL</h2>
+          <p class="skill-item">商品出品サイト、チャットアプリ、ホームページ作成</p>
+          <p class="skill-item">HTML・CSS・Ruby・Ruby on Rails・JavaScript・GitHub
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="profile">
+        <div class="inner">
+          <h2 class="title">PLOFILE</h2>
+          <div class="profile">
+            <div class="profile-body">
+              <p>
+                有働はるか(うどうはるか)。宮崎県都城市出身。大学卒業後、アパレル企業に就職し、11年間販売スタッフを経験。お客様から「こんな商品が欲しい」との声を聞く事があり、
+                お客様のご要望を形にしものを作る側にも回ってみたいと考えていた。
+                会社主催のIT研修に参加した際に、今後はICTの進歩や革新が社会変革の中心となると感じ、「IT×ものづくり」を仕事にできないかと考えITエン
+                ジニアという職業に興味を持つ。2021年にアパレル企業を退職し、オンラインプログラミングスクールにてWEBアプリケーション開発を学ぶ。
+              </p>
+              <p>
+                現在は、progate、Udemy、DAWNでPHPを勉強中。
+                将来はフロントエンドからバックエンドまでを手掛けられるエンジニアとなり、顧客目線を大切にするエンジニアになりたい。。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="inner">
+          <%= image_tag "rabit.png", class:"contact-image" %>
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">メールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <span class="contact-item">hhhhharuka1020@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;HARUKA　UDO</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+</body>
+</html>
